@@ -74,6 +74,11 @@ className='flex justify-center py-6 mb-5'>
 
               <button className='text-white font-bold bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'
               >Send</button>
+              <div className='grid grid-cols-2 gap-48'>
+                <p>manjuyadav0514001@gmail.com</p>
+              <h1>8788817572</h1>
+              </div>
+             
           </form>
         </div>
       </div>
