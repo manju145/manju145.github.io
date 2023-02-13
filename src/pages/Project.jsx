@@ -31,8 +31,9 @@ const Project = () => {
       
       className='bg-gradient-to-b from-black to-gray-800 w-full text-white pt-12'>
 
-      <div class="nav-link projects"
-      className='p-12 mx-auto flex-col justify-center w-full h-full grid  gap-11 mt-12'>
+      <div
+      //  class="nav-link projects"
+      className='nav-link projects  p-12 mx-auto flex-col justify-center w-full h-full grid  gap-11 mt-12'>
         <div className='mb-12 '>
           <p className='text-5xl font-bold   text-center text-blue underline'>PROJECT</p>
         </div>
@@ -47,19 +48,23 @@ const Project = () => {
                 <img src={src} alt=""
                   className='rounded-md duration-200 hover:scale-105' />
                 <div className='flex items-center justify-around'>
-                  <button class="project-deployed-link"
-                  className='w1/2 px-6 py-3 m-4 duration-200 hover:scale-105 '><a href='https://chimerical-lollipop-25cd16.netlify.app/' className='hover:font-bold hover:text-black hover:bg-yellow-100 py-2 px-4'>Deploy</a></button>
-                  <button class="project-github-link"
-                  className='w1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href='https://github.com/hariomfw21/dandy-nation-9128' className='hover:font-bold hover:text-black hover:bg-yellow-100 py-2 px-4'>Code</a></button>
+                  <button
+                  //  class="project-deployed-link"
+                  className='project-deployed-link w1/2 px-6 py-3 m-4 duration-200 hover:scale-105 '><a href='https://chimerical-lollipop-25cd16.netlify.app/' className='hover:font-bold hover:text-black hover:bg-yellow-100 py-2 px-4'>Deploy</a></button>
+                  <button
+                  //  class="project-github-link"
+                  className=' project-github-link w1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href='https://github.com/hariomfw21/dandy-nation-9128' className='hover:font-bold hover:text-black hover:bg-yellow-100 py-2 px-4'>Code</a></button>
                 </div>
                 <p 
                 // class="project-description"
                  className='project-description  text-1xl text-center flex m-auto'>{tytle}</p>
 
-                <h1 class="project-tech-stack"
-                className='text-red-500 flex justify-end mr-4' >{stack}</h1>
-                <h6 class="project-title"
-                className='flex justify-end mr-4'>{stackname}</h6>
+                <h1
+                //  class="project-tech-stack"
+                className='project-tech-stack text-red-500 flex justify-end mr-4' >{stack}</h1>
+                <h6 
+                // class="project-title"
+                className='project-title flex justify-end mr-4'>{stackname}</h6>
               </div>
             </div>
 
