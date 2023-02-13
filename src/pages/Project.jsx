@@ -34,14 +34,14 @@ const Project = () => {
       <div class="nav-link projects"
       className='p-12 mx-auto flex-col justify-center w-full h-full grid  gap-11 mt-12'>
         <div className='mb-12 '>
-          <p className='text-5xl font-bold   text-center text-blue underline'>All My Project</p>
+          <p className='text-5xl font-bold   text-center text-blue underline'>PROJECT</p>
         </div>
 
         {
           project.map(({ id, src, tytle, stack, stackname }) => (
 
-            <div key={id} className='grid px-12 mb-12 mt-10'
-            class="project-card"
+            <div key={id} className='project-card grid px-12 mb-12 mt-10'
+            // class="project-card"
             >
               <div className='shadow-md shadow-gray-600 rounded-lg'>
                 <img src={src} alt=""
@@ -53,8 +53,8 @@ const Project = () => {
                   className='w1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href='https://github.com/hariomfw21/dandy-nation-9128' className='hover:font-bold hover:text-black hover:bg-yellow-100 py-2 px-4'>Code</a></button>
                 </div>
                 <p 
-                class="project-description"
-                 className='text-1xl text-center flex m-auto'>{tytle}</p>
+                // class="project-description"
+                 className='project-description  text-1xl text-center flex m-auto'>{tytle}</p>
 
                 <h1 class="project-tech-stack"
                 className='text-red-500 flex justify-end mr-4' >{stack}</h1>
@@ -65,8 +65,9 @@ const Project = () => {
 
           ))
         }
-        <h1 class="react-activity-calendar"
-        className='text-3xl font-bold   text-center text-blue underline '>Github Calendar</h1>
+        <h1 
+        // class="react-activity-calendar"
+        className='react-activity-calendar text-3xl font-bold   text-center text-blue underline '>Github Calendar</h1>
         <img src={gitcalender}
           className='rounded-md duration-200 hover:scale-105 m-auto'
         />

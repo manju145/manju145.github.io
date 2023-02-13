@@ -79,10 +79,11 @@ const Skill = () => {
     <div name="skill"
     id="skills"
       className='bg-gradient-to-b from-black to-gray-800 w-full h-screen '>
-      <div class="nav-link skills"
-      className='max-w-screen-lg mx-auto p-6 flex flex-col justify-center w-full text-white'>
+      <div
+      //  class="nav-link skills"
+      className='nav-link skills max-w-screen-lg mx-auto p-6 flex flex-col justify-center w-full text-white'>
         <div className='py-6 mt-12'>
-          <p className=' text-center text-4xl font-bold  border-gray-500 p-2  underline'>My Technical Skills</p>
+          <p className=' text-center text-4xl font-bold  border-gray-500 p-2  underline'>Technical Skills</p>
         </div>
 
         <div className='w-full grid grid-cols-4 sm:grid-cols-5 gap-12 text-center py-8 px-12 sm:px-0 '>
@@ -90,14 +91,14 @@ const Skill = () => {
           {
             Skill.map(({ id, src, title, style }) => (
               <div key={id} 
-              class="skills-card"
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+              // class="skills-card"
+              className={`skills-card  only:shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
                 <img src={src} alt=""
-                 class="skills-card-img"
-                  className='w-20 mx-auto'
+                //  class="skills-card-img"
+                  className='skills-card-img  w-20 mx-auto'
                 />
-                <p className='mt-4'
-                class="skills-card-name"
+                <p className='skills-card-name mt-4'
+                // class="skills-card-name"
                 >{title}</p>
               </div>
             ))

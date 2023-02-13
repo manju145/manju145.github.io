@@ -8,8 +8,9 @@ const Contact = () => {
     id="contact"
      className='w-full h-full bg-gradient-to-b from-black to-gray-800 text-white grid grid-cols-2 gap-11'>
 
-<div class="nav-link contact"
-className='w-full  px-1  h-80 flex mt-60 ml-6'>
+<div 
+// class="nav-link contact"
+className='nav-link contact w-full  px-1  h-80 flex mt-60 ml-6'>
   <img src="https://optinmonster.com/wp-content/uploads/2017/04/is-email-marketing-dead-heres-what-the-statistics-show.png" alr=""
    className=' flex w-full mx-auto'
   />

@@ -7,8 +7,9 @@ const Home = () => {
         id="home"
         className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 '>
 
-            <div class="nav-link home"
-             className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
+            <div
+            //  class="nav-link home"
+             className='nav-link home  max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full'>
                     <h3 className='text-4xl sm:text-3xl text-white '>Hi There, I'm</h3>
                     <h1 className='text-4xl sm:text-4xl text-white font-bold mt-5'>Manju Yadav</h1>
@@ -27,10 +28,10 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='hover:scale-105'>
+                <div className='hover:scale-105 '>
                     <img src={manjupic} alt="my profile"
-                    class="home-img"
-                    className='rounded-2xl mx-auto w-2/3 md:w-full ml-10'
+                    // class="home-img"
+                    className='home-img rounded-6xl rounded-lg mx-auto  md:w-full ml-10 borderRadius-2px w-96'
                     >
                     </img>
                 </div>

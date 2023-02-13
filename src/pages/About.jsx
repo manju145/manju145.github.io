@@ -11,7 +11,7 @@ const About = () => {
    
         <div >
           <p className=' text-6xl font-bold text-center  sm:text-4xl underline'>
-            All About Me
+           About Me
           </p>
         </div>
         <p className='text-xl  mt-20'>
