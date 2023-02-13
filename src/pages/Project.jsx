@@ -11,14 +11,14 @@ const Project = () => {
       id: 1,
       src: where_is_brand,
       tytle:"It is a restful-based web service for online Subscription booking  system.",
-      stack:"Tech Stack :",
+      stack:"tech Stack :",
          stackname:"HTML | CSS  |  JavaScrip"
     },
     {
       id: 2,
       src: Tripoto,
       tytle:"Tripoto is a travel website that offers guides, itineraries, booking options and a platform to share personal travel stories.",
-      stack:"Tech Stack :",
+      stack:"tech Stack :",
       stackname:"HTML | CSS  |  JavaScrip"
     },
   ];
