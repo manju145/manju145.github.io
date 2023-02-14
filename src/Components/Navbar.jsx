@@ -1,7 +1,9 @@
-
+// import { BsFillPersonLinesFill} from "react-icons/bs";
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import Manju_Yadav_Resume from "../pic portfolio/Manju_Yadav_Resume.pdf"
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -35,7 +37,7 @@ const Navbar = () => {
     return (
 
         <div id="nav-menu"
-        className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
+            className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
             <div>
                 <h1 className='text-5xl font-signature ml-2'>Manju</h1>
             </div>
@@ -53,13 +55,27 @@ const Navbar = () => {
                              hover:scale-105 
                              duration-200'
                     >
-                       <Link to={link} smooth duration={500}>{link}</Link>
+                        <Link to={link} smooth duration={500}>{link}</Link>
                     </li>
+                    
 
                 ))}
 
+                  <button
+                   id="resume-button-1"
+                    className='flex justify-between items-center w-30  h-6 px-4  bg-red-600 rounded-md hover:bg-blue-200'>
+                    <a
+                        href={Manju_Yadav_Resume}
+                        className='flex justify-between items-center w-full font-bold rounded-br-md rounded-tr-md text-black'
+                        download={true}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
 
+                        Resume 
 
+                    </a>
+                    </button>
             </ul>
 
 
@@ -78,12 +94,12 @@ const Navbar = () => {
                     {links.map(({ id, link }) => (
 
                         <li
-                      
+
                             key={id}
                             className='px-4 cursor-pointer capitalize py-6 text-4xl'
                         > <Link
-                        onClick={()=> setNav(!nav)}
-                        to={link} smooth duration={500}>{link}</Link>
+                            onClick={() => setNav(!nav)}
+                            to={link} smooth duration={500}>{link}</Link>
                         </li>
 
                     ))}
