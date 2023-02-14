@@ -3,10 +3,10 @@ import React from 'react'
 const About = () => {
   return (
     <div name="about"
-    id="about"
     //  class="about section"
-      className='about section w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white m-0' >
-
+      className='about section w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white '
+      id="about" >
+      
       <div 
       // class="nav-link about"
        className='nav-link about max-w-screen-lg  p-4 mx-auto flex flex-col justify-center w-full h-full'>

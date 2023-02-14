@@ -18,7 +18,7 @@ const Home = () => {
                     </h2>
                     <p className='text-1xl sm:text-1xl text-gray-500'>If you are looking for a talented, dedicated, and experienced full stack developer, I would love the opportunity to speak with you further. Please feel free to view my portfolio and reach out if you have any questions or would like to discuss your project.</p>
                     <div>
-                        <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer mt-2'>
+                        <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer mt-4'>
                             Portfolio
                             <span className='group-hover:rotate-90 duration-300'>
                                 <MdOutlineKeyboardArrowRight size={25} 

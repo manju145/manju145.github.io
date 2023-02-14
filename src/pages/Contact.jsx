@@ -11,7 +11,7 @@ const Contact = () => {
 <div 
 // class="nav-link contact"
 className='nav-link contact w-full  px-1  h-80 flex mt-60 ml-6'>
-  <img src="https://optinmonster.com/wp-content/uploads/2017/04/is-email-marketing-dead-heres-what-the-statistics-show.png" alr=""
+  <img src="https://optinmonster.com/wp-content/uploads/2017/04/is-email-marketing-dead-heres-what-the-statistics-show.png" alr="contact"
    className=' flex w-full mx-auto'
   />
 </div>
@@ -25,23 +25,23 @@ className='nav-link contact w-full  px-1  h-80 flex mt-60 ml-6'>
 
 <div 
 id="contact-linkedin"
-className='flex justify-center py-6 mb-5'>
-  <button className='items-center w-40   px-4   ml-[-10px]  '>
+className='flex justify-center py-6 mb-4'>
+  <button className='items-center w-30 h-10 px-4   ml-[-10px]'>
      <a href='https://www.linkedin.com/in/manju-yadav-1 '
-         className='flex  items-center w-full text-white rounded-tr-md'>
+         className='flex  items-center w-full text-black hover:text-blue-800 font-bold rounded-tr-md bg-sky-200'>
       LinkedIn <FaLinkedin size={28}/></a></button>
 
   <button 
    id="contact-github"
-  className=' items-center w-40  h-14 px-4   ml-[-10px] rounded-md '>
+  className=' items-center w-35  h-10 px-4 font-bold ml-[-10px] rounded-md hover:text-blue-200'>
     <a href='https://github.com/manju145'
      className='flex  items-center w-full text-white rounded-tr-md'>
   GitHub <FaGithub size={30}/>
     </a></button>
 
-  <button className=' items-center w-40  h-14 px-4   ml-[-10px] rounded-md '>
+  <button className=' items-center w-30  h-10 px-4 font-bold ml-[-10px] rounded-md'>
   <a href='mailto:manjuyadav0514001@gmail.com'
-  className='flex  items-center w-full text-white rounded-tr-md'>
+  className='flex  items-center w-full rounded-tr-md text-black bg-yellow-200'>
   Email<HiOutlineMail size={30}/>
   </a></button>
 </div>
