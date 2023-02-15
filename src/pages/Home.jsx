@@ -31,7 +31,7 @@ const Home = () => {
                 <div className='hover:scale-105 '>
                     <img src={manjupic} alt="my profile"
                     // class="home-img"
-                    className='home-img rounded-6xl rounded-lg mx-auto  md:w-full ml-10 borderRadius-2px w-96'
+                    className='home-img rounded-8xl rounded-lg mx-auto md:w-full borderRadius-2px  w-96'
                     >
                     </img>
                 </div>

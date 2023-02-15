@@ -11,7 +11,9 @@ const Contact = () => {
 <div 
 // class="nav-link contact"
 className='nav-link contact w-full  px-1  h-80 flex mt-60 ml-6'>
-  <img src="https://optinmonster.com/wp-content/uploads/2017/04/is-email-marketing-dead-heres-what-the-statistics-show.png" alr="contact"
+
+  <img src="https://optinmonster.com/wp-content/uploads/2017/04/is-email-marketing-dead-heres-what-the-statistics-show.png" 
+ alt=''
    className=' flex w-full mx-auto'
   />
 </div>

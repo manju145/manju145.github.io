@@ -11,15 +11,15 @@ const Project = () => {
       id: 1,
       src: where_is_brand,
       tytle:"It is a restful-based web service for online Subscription booking  system.",
-      stack:"tech Stack :",
-         stackname:"HTML | CSS  |  JavaScrip"
+      stack:"Tech Stack :",
+         stackname:"HTML | CSS  |  JavaScript"
     },
     {
       id: 2,
       src: Tripoto,
       tytle:"Tripoto is a travel website that offers guides, itineraries, booking options and a platform to share personal travel stories.",
-      stack:"tech Stack :",
-      stackname:"HTML | CSS  |  JavaScrip"
+      stack:"Tech Stack :",
+      stackname:"HTML | CSS  |  JavaScript"
     },
   ];
 
@@ -45,7 +45,7 @@ const Project = () => {
             // class="project-card"
             >
               <div className='shadow-md shadow-gray-600 rounded-lg'>
-                <img src={src} alt=""
+                <img src={src} alt="project"
                   className='rounded-md duration-200 hover:scale-105' />
                 <div className='flex items-center justify-around'>
                   <button
@@ -73,7 +73,7 @@ const Project = () => {
         <h1 
         // class="react-activity-calendar"
         className='react-activity-calendar text-3xl font-bold   text-center text-blue underline '>Github Calendar</h1>
-        <img src={gitcalender}
+        <img src={gitcalender} alt=""
           className='rounded-md duration-200 hover:scale-105 m-auto'
         />
 
@@ -81,10 +81,10 @@ const Project = () => {
 <h1 className='text-3xl font-bold   text-center text-blue underline'>Github Stats</h1>
 <div className='grid grid-cols-2 gap-8 p-8'>
          
-          <img src={gitnum}
+          <img src={gitnum}  alt=""
             className='rounded-md duration-200 hover:scale-105 m-auto'
           />
-          <img src={gitrate}
+          <img src={gitrate}  alt=""
             className='rounded-md duration-200 hover:scale-105 m-auto'
           />
         </div>
