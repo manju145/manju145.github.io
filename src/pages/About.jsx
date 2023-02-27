@@ -3,13 +3,12 @@ import React from 'react'
 const About = () => {
   return (
     <div name="about"
-    //  class="about section"
-      className='about section w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white '
-      id="about" >
+    id="about"
+        className='about section, w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white '
+         >
       
       <div 
-      // class="nav-link about"
-       className='nav-link about max-w-screen-lg  p-4 mx-auto flex flex-col justify-center w-full h-full'>
+           className='nav-link about max-w-screen-lg  p-4 mx-auto flex flex-col justify-center w-full h-full'>
    
         <div className='pb-8'>
           <p className=' text-6xl font-bold inline border-b-4 border-gray-500'>

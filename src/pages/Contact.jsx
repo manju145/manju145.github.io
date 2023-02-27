@@ -6,17 +6,7 @@ const Contact = () => {
   return (
     <div name="contact"
       id="contact"
-      className='w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white'>
-      {/* 
-           <div 
-            // class="nav-link contact"
-        className='nav-link contact w-full  px-1  h-80 flex mt-60 ml-6'>
-
-          <img src="https://optinmonster.com/wp-content/uploads/2017/04/is-email-marketing-dead-heres-what-the-statistics-show.png" 
-           alt=''
-             className=' flex w-full mx-auto'
-            />
-          </div> */}
+      className='pt-10 w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white mt-1 pb-28'>
       <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full '>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Contact</p>
@@ -25,8 +15,8 @@ const Contact = () => {
 
         <div
           id="contact-linkedin"
-          className='flex justify-center py-6 mb-4'>
-          <button className='items-center w-30 h-10 px-4   ml-[-10px]'>
+          className='flex justify-around w-20 mx-auto'>
+          <button className='items-center w-30 h-10 px-4 '>
             <a href='https://www.linkedin.com/in/manju-yadav-1 '
               className='flex  items-center w-full text-black hover:text-blue-800 font-bold rounded-tr-md bg-sky-200'>
               LinkedIn <FaLinkedin size={28} /></a></button>
@@ -47,6 +37,8 @@ const Contact = () => {
         </div>
 
         <div className='flex justify-center items-center'>
+          
+          
           <form action='https://getform.io/f/93499645-a07a-4eff-b445-558f862088f6'
             method='POST'
             className='flex flex-col w-full md:w-1/2'>
@@ -72,23 +64,17 @@ const Contact = () => {
               className=' my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
             ></textarea>
 
-            <button className='text-white font-bold bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'
+            <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'
             >Send</button>
-             <p className='text-black'>manjuyadav0514001@gmail.com</p>
-              <h1 className='text-black'>8788817572</h1>
-
-            {/* <div className='grid grid-cols-2 gap-48 w-full bg-gradient-to-b from-black to-gray-800'>
-              <p className='text-black'>manjuyadav0514001@gmail.com</p>
-              <h1 className='text-black'>8788817572</h1>
-            </div> */}
+                    
+            <div className='grid grid-cols-2 gap-48 w-full '>
+              <p className='text-white font-bold'>manjuyadav0514001@gmail.com</p>
+              <h1 className='text-white font-bold'>8788817572</h1>
+            </div>
 
           </form>
           
         </div>
-        <div className='grid grid-cols-2 gap-48 w-full bg-gradient-to-b from-black to-gray-800'>
-              <p className='text-black'>manjuyadav0514001@gmail.com</p>
-              <h1 className='text-black'>8788817572</h1>
-            </div>
       </div>
 
     </div>

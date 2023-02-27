@@ -12,23 +12,28 @@ const Navbar = () => {
         {
             id: 1,
             link: "home",
+            class:"nav-link home"
         },
         {
             id: 2,
             link: "about",
+            class:"nav-link about"
         },
         {
             id: 3,
             link: "skill",
+            class:"nav-link skills"
         },
 
         {
             id: 4,
             link: "project",
+            class:"nav-link projects"
         },
         {
             id: 5,
             link: "contact",
+            class:"nav-link contact"
         },
 
     ];
@@ -62,11 +67,12 @@ const Navbar = () => {
                 ))}
 
                   <button
-                   id="resume-button-1"
+                  id="resume-link-2"
                     className='flex justify-between items-center w-30  h-6 px-4  bg-red-600 rounded-md hover:bg-blue-200'>
                     <a
+                    id="resume-link-1"
                         href={Manju_Yadav_Resume}
-                        className='flex justify-between items-center w-full font-bold rounded-br-md rounded-tr-md text-black'
+                        className='nav-link resume flex justify-between items-center w-full font-bold rounded-br-md rounded-tr-md text-black'
                         download={true}
                         target="_blank"
                         rel="noreferrer"
