@@ -11,8 +11,8 @@ const About = () => {
       // class="nav-link about"
        className='nav-link about max-w-screen-lg  p-4 mx-auto flex flex-col justify-center w-full h-full'>
    
-        <div >
-          <p className=' text-6xl font-bold text-center  sm:text-4xl underline'>
+        <div className='pb-8'>
+          <p className=' text-6xl font-bold inline border-b-4 border-gray-500'>
            About Me
           </p>
         </div>

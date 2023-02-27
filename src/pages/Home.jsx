@@ -10,15 +10,18 @@ const Home = () => {
             <div
             //  class="nav-link home"
              className='nav-link home  max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-                <div className='flex flex-col justify-center h-full'>
-                    <h3 className='text-4xl sm:text-3xl text-white '>Hi There, I'm</h3>
-                    <h1 className='text-4xl sm:text-4xl text-white font-bold mt-5'>Manju Yadav</h1>
-                    <h2 className='text-3xl sm:text-4xl text-white mt-5 mb-5'>
+                <div className='flex flex-col justify-center h-full mr-11'>
+                    <h3 className='text-4xl sm:text-3xl text-white'>Hi There, I'm</h3>
+                    <h1 className='text-4xl sm:text-4xl text-white font-bold mt-5px mt-5'>Manju Yadav</h1>
+                    <h2 className='text-3xl sm:text-4xl text-white mt-5'>
                         I'm a Full Stack Developer
                     </h2>
-                    <p className='text-1xl sm:text-1xl text-gray-500'>If you are looking for a talented, dedicated, and experienced full stack developer, I would love the opportunity to speak with you further. Please feel free to view my portfolio and reach out if you have any questions or would like to discuss your project.</p>
+                    <p className='text-gray-500 py-4 max-w-md'>If you are looking for a talented, dedicated, 
+                    and experienced full stack developer, I would love the opportunity to speak with you further.
+                     Please feel free to view my portfolio and reach out if you have any questions or would like to
+                      discuss your project.</p>
                     <div>
-                        <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer mt-4'>
+                        <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer '>
                             Portfolio
                             <span className='group-hover:rotate-90 duration-300'>
                                 <MdOutlineKeyboardArrowRight size={25} 
@@ -30,8 +33,7 @@ const Home = () => {
 
                 <div className='hover:scale-105 '>
                     <img src={manjupic} alt="my profile"
-                    // class="home-img"
-                    className='home-img rounded-8xl rounded-lg mx-auto md:w-full borderRadius-2px  w-96'
+                    className='home-img rounded-2xl  mx-auto w-2/3 md:w-full borderRadius-2px '
                     >
                     </img>
                 </div>

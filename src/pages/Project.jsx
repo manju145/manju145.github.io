@@ -11,6 +11,7 @@ const Project = () => {
       id: 1,
       src: where_is_brand,
       tytle:"It is a restful-based web service for online Subscription booking  system.",
+      herfpro:"https://chimerical-lollipop-25cd16.netlify.app/",
       stack:"Tech Stack :",
          stackname:"HTML | CSS  |  JavaScript"
     },
@@ -18,6 +19,7 @@ const Project = () => {
       id: 2,
       src: Tripoto,
       tytle:"Tripoto is a travel website that offers guides, itineraries, booking options and a platform to share personal travel stories.",
+      herfpro:"https://brilliant-rugelach-54b37f.netlify.app/",
       stack:"Tech Stack :",
       stackname:"HTML | CSS  |  JavaScript"
     },
@@ -39,7 +41,7 @@ const Project = () => {
         </div>
 
         {
-          project.map(({ id, src, tytle, stack, stackname }) => (
+          project.map(({ id, src, tytle, stack, stackname,herfpro }) => (
 
             <div key={id} className='project-card grid px-12 mb-12 mt-10'
             // class="project-card"
@@ -50,7 +52,7 @@ const Project = () => {
                 <div className='flex items-center justify-around'>
                   <button
                   //  class="project-deployed-link"
-                  className='project-deployed-link w1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gray-600'><a href='https://chimerical-lollipop-25cd16.netlify.app/' className='hover:font-bold hover:text-black hover:bg-yellow-100 py-2 px-4'>Deploy</a></button>
+                  className='project-deployed-link w1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gray-600'><a href={herfpro} className='hover:font-bold hover:text-black hover:bg-yellow-100 py-2 px-4'>Deploy</a></button>
                   <button
                   //  class="project-github-link"
                   className=' project-github-link w1/2 px-6 py-3 m-4 duration-200 hover:scale-105  bg-gray-600'><a href='https://github.com/hariomfw21/dandy-nation-9128' className='hover:font-bold hover:text-black hover:bg-yellow-100 py-2 px-4'>Code</a></button>

@@ -81,9 +81,9 @@ const Skill = () => {
       className='bg-gradient-to-b from-black to-gray-800 w-full h-screen '>
       <div
       //  class="nav-link skills"
-      className='nav-link skills max-w-screen-lg mx-auto p-8 flex flex-col justify-center w-full text-white'>
+      className='nav-link skills max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
         <div className='py-8'>
-          <p className=' text-center text-4xl font-bold  border-gray-500 p-2  underline'>Technical Skills</p>
+          <p className=' text-center text-4xl font-bold border-b-4 border-gray-500 p-2  inline'>Technical Skills</p>
         </div>
 
         <div className='w-full grid grid-cols-4 sm:grid-cols-5 gap-12 text-center py-8 px-12 sm:px-0 '>
@@ -91,14 +91,14 @@ const Skill = () => {
           {
             Skill.map(({ id, src, title, style }) => (
               <div key={id} 
-              // class="skills-card"
-              className={`skills-card only:shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+             
+              className={`skills-card shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
                 <img src={src} alt=""
-                //  class="skills-card-img"
+               
                   className='skills-card-img w-20 mx-auto'
                 />
-                <p className='skills-card-name'
-                // class="skills-card-name"
+                <p className='skills-card-name mt-4'
+            
                 >{title}</p>
               </div>
             ))
