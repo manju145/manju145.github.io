@@ -12,28 +12,28 @@ const Navbar = () => {
         {
             id: 1,
             link: "home",
-            classhere:"nav-link home"
+          
         },
         {
             id: 2,
             link: "about",
-            classhere:"nav-link about"
+         
         },
         {
             id: 3,
             link: "skill",
-            classhere:"nav-link skills"
+         
         },
 
         {
             id: 4,
             link: "project",
-            classhere:"nav-link projects"
+            
         },
         {
             id: 5,
             link: "contact",
-            classhere:"nav-link contact"
+        
         },
 
     ];
@@ -48,7 +48,7 @@ const Navbar = () => {
             </div>
             <ul className='hidden md:flex'>
 
-                {links.map(({ id, link,classhere }) => (
+                {links.map(({ id, link }) => (
 
                     <li
                         key={id}
@@ -60,7 +60,7 @@ const Navbar = () => {
                              hover:scale-105 
                              duration-200'
                     >
-                        <Link className={classhere} to={link} smooth duration={500}>{link}</Link>
+                        <Link to={link} smooth duration={500}>{link}</Link>
                     </li>
                     
 
