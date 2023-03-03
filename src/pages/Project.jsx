@@ -44,27 +44,27 @@ const Project = () => {
           project.map(({ id, src, tytle, stack, stackname, herfpro }) => (
 
             <div key={id} className='project-card grid px-12 mb-12 mt-10'
-           
+
             >
               <div className='shadow-md shadow-gray-600 rounded-lg'>
                 <img src={src} alt="project"
                   className='rounded-md duration-200 hover:scale-105' />
                 <div className='flex items-center justify-around'>
                   <button
-                  
+
                     className='project-deployed-link w1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gray-600'><a href={herfpro} className='project-deployed-link hover:font-bold hover:text-black hover:bg-yellow-100 py-2 px-4'>Deploy</a></button>
                   <button
-                  
+
                     className=' project-github-link w1/2 px-6 py-3 m-4 duration-200 hover:scale-105  bg-gray-600'><a href='https://github.com/hariomfw21/dandy-nation-9128' className='project-github-link hover:font-bold hover:text-black hover:bg-yellow-100 py-2 px-4'>Code</a></button>
                 </div>
                 <p
-                
+
                   className='project-description  text-1xl text-center flex m-auto'>{tytle}</p>
 
                 <h1
-                                className='project-tech-stack text-red-500 flex justify-end mr-4' >{stack}</h1>
+                  className='project-tech-stack text-red-500 flex justify-end mr-4' >{stack}</h1>
                 <h6
-                 
+
                   className='project-title flex justify-end mr-4'>{stackname}</h6>
               </div>
             </div>
@@ -72,17 +72,21 @@ const Project = () => {
           ))
         }
         <h1
-         
+
           className='text-3xl font-bold   text-center text-blue underline '>Github Calendar</h1>
         {/* <img src={gitcalender} alt=""
           className='rounded-md duration-200 hover:scale-105 m-auto'
         /> */}
         <div className='w-85 m-auto'>
-<GitHubCalendar 
- username="manju145"
->
-  
-</GitHubCalendar>
+          <GitHubCalendar
+          className="react-activity-calendar"
+            username="manju145"
+            blockSize={12}
+            blockMargin={8}
+            fontSize={15}
+          >
+
+          </GitHubCalendar>
           {/* <GitHubCalendar
             className="react-activity-calendar"
             username="manju145"
