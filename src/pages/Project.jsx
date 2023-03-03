@@ -1,7 +1,7 @@
 import React from 'react';
 import where_is_brand from "../pic portfolio/where_is_brand.png";
 import Tripoto from "../pic portfolio/Tripoto.png"
-// import gitcalender from "../pic portfolio/gitcalender.png"
+import gitcalender from "../pic portfolio/gitcalender.png"
 import gitnum from "../pic portfolio/gitnum.png"
 import gitrate from "../pic portfolio/gitrate.png"
 import GitHubCalendar from "react-github-calendar";
@@ -76,11 +76,16 @@ const Project = () => {
         <h1
           // class="react-activity-calendar"
           className='text-3xl font-bold   text-center text-blue underline '>Github Calendar</h1>
-        {/* <img src={gitcalender} alt=""
+        <img src={gitcalender} alt=""
           className='rounded-md duration-200 hover:scale-105 m-auto'
-        /> */}
+        />
         <div className='w-85 m-auto'>
-          <GitHubCalendar
+<GitHubCalendar 
+ username="manju145"
+>
+  
+</GitHubCalendar>
+          {/* <GitHubCalendar
             className="react-activity-calendar"
             username="manju145"
             blockSize={12}
@@ -88,7 +93,7 @@ const Project = () => {
             // color="green"
             fontSize={15}
 
-          />
+          /> */}
         </div>
         <div className='p-8'>
           <h1
