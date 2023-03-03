@@ -80,28 +80,28 @@ const Project = () => {
           className='rounded-md duration-200 hover:scale-105 m-auto'
         /> */}
         <div className='w-85 m-auto'>
-  <GitHubCalendar
-  className="react-activity-calendar"
-        username="manju145"
-        blockSize={12}
-        blockMargin={8}
-        // color="green"
-        fontSize={15}
-        
-      />
-      </div>
+          <GitHubCalendar
+            className="react-activity-calendar"
+            username="manju145"
+            blockSize={12}
+            blockMargin={8}
+            // color="green"
+            fontSize={15}
+
+          />
+        </div>
         <div className='p-8'>
           <h1
-           id="github-top-langs"
-          className='text-3xl font-bold   text-center text-blue underline'>Github Stats</h1>
+            id="github-top-langs"
+            className='text-3xl font-bold   text-center text-blue underline'>Github Stats</h1>
           <div className='grid grid-cols-2 gap-8 p-8'>
 
             <img src={gitnum} alt=""
-            id="github-streak-stats"
+              id="github-streak-stats"
               className='rounded-md duration-200 hover:scale-105 m-auto'
             />
             <img src={gitrate} alt=""
-            id="github-stats-card"
+              id="github-stats-card"
               className='rounded-md duration-200 hover:scale-105 m-auto'
             />
           </div>
