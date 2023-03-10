@@ -85,18 +85,8 @@ const Project = () => {
             blockMargin={8}
             fontSize={15}
           >
-
           </GitHubCalendar>
-          {/* <GitHubCalendar
-            className="react-activity-calendar"
-            username="manju145"
-            blockSize={12}
-            blockMargin={8}
-            // color="green"
-            fontSize={15}
-
-          /> */}
-        </div>
+                 </div>
         <div className='p-8'>
           <h1
             id="github-top-langs"

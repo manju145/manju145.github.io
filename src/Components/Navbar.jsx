@@ -50,7 +50,7 @@ const Navbar = () => {
 
                 {links.map(({ id, link }) => (
 
-                    <li
+                    <li 
                         key={id}
                         className='px-4 
                          cursor-pointer
@@ -60,7 +60,7 @@ const Navbar = () => {
                              hover:scale-105 
                              duration-200'
                     >
-                        <Link to={link} smooth duration={500}>{link}</Link>
+                        <Link to={link} smooth duration={500} >{link}</Link>
                     </li>
                     
 
