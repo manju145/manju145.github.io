@@ -1,5 +1,5 @@
 import React from 'react'
-import manjupic from "../pic portfolio/manjupic.jpeg";
+import manjupic from "../pic portfolio/manjupic.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const Home = () => {
     return (

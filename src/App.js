@@ -5,6 +5,8 @@ import SocialLink from './pages/socialLinks';
 import Skill from './pages/Skill';
 import Contact from './pages/Contact';
 import Project from './pages/Project';
+import "./App.css";
+
 
 function App() {
   return (
