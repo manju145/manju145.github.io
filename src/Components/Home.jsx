@@ -98,7 +98,7 @@ export default function Home() {
                 }
               >
                 <Link
-                  id="resume-link-2"
+                  id="resume-link-1"
                   href={Manju_Yadav_Resume}
                   // id="resume-button-2"
                   className="nav-link resume"

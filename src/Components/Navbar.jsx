@@ -136,7 +136,7 @@ export default function Navbar() {
               </Button>
 
               <Link
-               id="resume-link-1"
+               id="resume-link-2"
                 href={Manju_Yadav_Resume}
                 className="nav-link resume"
                 download
