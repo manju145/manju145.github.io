@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
  import {HiOutlineMail} from "react-icons/hi";
  import { BsFillPersonLinesFill} from "react-icons/bs";
-import Manju_Yadav_Resume from "../pic portfolio/Manju_Yadav_Resume.pdf"
+import Manju_Yadav_Resume from "../Image/Manju_Yadav_Resume.pdf"
 
 const SocialLink = () => {
   

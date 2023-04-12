@@ -1,25 +1,26 @@
-import NavBar from './Components/NavBar';
-import About from './pages/About';
-import Home from './pages/Home';
-import SocialLink from './pages/socialLinks';
-import Skill from './pages/Skill';
-import Contact from './pages/Contact';
-import Project from './pages/Project';
-import "./App.css";
-
+import './App.css';
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import About from './Components/About';
+import Skills from './Components/Skills';
+import Stats from './Components/Stats';
+import Projects from './Components/Projects';
+import Contact from './Components/Contact';
+import SocialLink from './Components/Sociallink';
 
 function App() {
   return (
-    <div className="App">
-   <NavBar></NavBar>
-   <Home/>
-<About/>
-<Project/>
-<Skill/>
-<Contact/>
-
-
-   <SocialLink/>
+    <div className='App' style={{marginTop:'0px'}} >
+   {/* <SocialLink/> */}
+    <Navbar id="nav-menu"/>
+<Home id="home"/>
+<About id="about" class="about-section"/>
+<Skills id="skills"/>
+<Projects id="projects"/>
+<Stats/>
+<Contact id="contact"/>
+   
+  
     </div>
   );
 }
