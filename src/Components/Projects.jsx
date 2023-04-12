@@ -45,22 +45,22 @@ let data = [
     github: "https://github.com/manju145/needless-point-9035",
     deploy: "https://brilliant-rugelach-54b37f.netlify.app/",
   },
-  {
-    image:`${img1}`,
-    title: "Mailchimp Clone",
-    desc: "It is a restful-based web service for online Subscription booking  system.",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/hariomfw21/dandy-nation-9128",
-    deploy: "https://chimerical-lollipop-25cd16.netlify.app/",
-  },
-  {
-    image:`${img2}`,
-    desc: "Tripoto is a travel website that offers guides, itineraries, booking options and a platform to share personal travel stories.",
-    title: "Tripoto Clone",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/manju145/needless-point-9035",
-    deploy: "https://brilliant-rugelach-54b37f.netlify.app/",
-  },
+  // {
+  //   image:`${img1}`,
+  //   title: "Mailchimp Clone",
+  //   desc: "It is a restful-based web service for online Subscription booking  system.",
+  //   techStack: ["HTML", "CSS", "JavaScript"],
+  //   github: "https://github.com/hariomfw21/dandy-nation-9128",
+  //   deploy: "https://chimerical-lollipop-25cd16.netlify.app/",
+  // },
+  // {
+  //   image:`${img2}`,
+  //   desc: "Tripoto is a travel website that offers guides, itineraries, booking options and a platform to share personal travel stories.",
+  //   title: "Tripoto Clone",
+  //   techStack: ["HTML", "CSS", "JavaScript"],
+  //   github: "https://github.com/manju145/needless-point-9035",
+  //   deploy: "https://brilliant-rugelach-54b37f.netlify.app/",
+  // },
   ];
 
 export default Projects;
