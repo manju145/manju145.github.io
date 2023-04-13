@@ -14,20 +14,21 @@ import { BiDownload } from "react-icons/bi";
 import DrawerExample from "./SideBar";
 import Manju_Yadav_Resume from "../Image/Manju_Yadav_Resume.pdf"
 
-// const NavLink = ({ children }) => (
-//   <Link
-//     px={2}
-//     py={1}
-//     rounded={"md"}
-//     _hover={{
-//       textDecoration: "none",
-//       bg: useColorModeValue("gray.200", "gray.700"),
-//     }}
-//     href={"#"}
-//   >
-//     {children}
-//   </Link>
-// );
+const NavLink = ({ children }) => (
+  <Link
+    px={2}
+    py={1}
+    rounded={"md"}
+    _hover={{
+      textDecoration: "none",
+      bg: useColorModeValue("gray.200", "gray.700"),
+    }}
+    href={"#"}
+  >
+    {children}
+  </Link>
+);
+
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
