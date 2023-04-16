@@ -35,13 +35,17 @@ const Feature = ({ text, icon, iconBg }) => {
   );
 };
 
+const handleResumeShow=()=>{
+  window.open(`${Manju_Yadav_Resume}`)
+}
+
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode();
-  function handleResume() {
-    window.open(
-     `${Manju_Yadav_Resume}`
-    );
-  }
+  // function handleResume() {
+  //   window.open(
+  //    `${Manju_Yadav_Resume}`
+  //   );
+  // }
   return (
     <>
       <Box id="home" h="30px"></Box>
@@ -97,22 +101,20 @@ export default function Home() {
                   />
                 }
               >
-                <Link
-                  id="resume-link-1"
-                  href={Manju_Yadav_Resume}
-                  // id="resume-button-2"
-                  className="nav-link resume"
-                  download
-                  onClick={handleResume}
-                  target="_blank"
-                >
-                  <Button colorScheme="teal" size="md" id="resume-button-2">
-                    <Text mr={"4px"}>
-                      Resume
-                      <BiDownload />
-                    </Text>
-                  </Button>
-                </Link>
+               
+                 <span id="resume-button-2" onClick={handleResumeShow}>
+                 <a  
+            style={{padding:'10px',background:'rgb(71,97,190)',borderRadius:'8px' , color:'white',textDecoration:'none'}}
+            id="resume-link-2"
+            href={Manju_Yadav_Resume}
+             download={true}
+             target="_blank"
+             rel="noreferrer"
+            >
+                  Resume                                                          
+            </a>
+            </span>
+            
                 <Flex justifyContent={"space-around"} w="25%">
                   <Link
                     m="5px"

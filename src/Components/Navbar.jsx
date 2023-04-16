@@ -28,7 +28,9 @@ const NavLink = ({ children }) => (
     {children}
   </Link>
 );
-
+const handleResumeShow=()=>{
+  window.open(`${Manju_Yadav_Resume}`)
+}
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -45,10 +47,10 @@ export default function Navbar() {
     }
   };
 
-  console.log(colorMode);
-  function handleResume() {
-   window.open(`${Manju_Yadav_Resume}`)
-  }
+  // console.log(colorMode);
+  // function handleResume() {
+  //  window.open(`${Manju_Yadav_Resume}`)
+  // }
   return (
     <>
       <Box
@@ -136,8 +138,8 @@ export default function Navbar() {
                 <Link className="nav-link contact">Contact</Link>
               </Button>
 
-              <Link
-               id="resume-link-2"
+              {/* <Link
+               id="resume-link-1"
                 href={Manju_Yadav_Resume}
                 className="nav-link resume"
                 download
@@ -155,7 +157,22 @@ export default function Navbar() {
                     <BiDownload />
                   </Text>
                 </Button>
-              </Link>
+              </Link> */}
+
+<div className="nav-link resume">
+<span  id="resume-button-1" onClick={handleResumeShow}>
+            <a  
+            style={{padding:'10px',background:'rgb(71,97,190)',borderRadius:'8px' , color:'white',textDecoration:'none'}}
+            id="resume-link-1"
+            href={Manju_Yadav_Resume}
+             download={true}
+             target="_blank"
+             rel="noreferrer"
+            >
+                  Resume                                                          
+            </a>
+            </span>
+            </div>
               <Button onClick={toggleColorMode}>
                 {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
               </Button>
@@ -172,7 +189,7 @@ export default function Navbar() {
             >
               <DrawerExample
                 handleClickScroll={handleClickScroll}
-                handleResume={handleResume}
+                handleResume={handleResumeShow}
               />
             </Flex>
           </Box>

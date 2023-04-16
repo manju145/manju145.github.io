@@ -24,7 +24,7 @@ function HelperProject({ image, title, techStack, desc, github, deploy }) {
       mt="10px"
     >
       <Box borderRadius="lg" overflow="hidden">
-        <Link textDecoration="none" _hover={{ textDecoration: "none" }}>
+        <a textDecoration="none" _hover={{ textDecoration: "none" }}>
           <Image
             transform="scale(1.0)"
             src={image}
@@ -36,7 +36,7 @@ function HelperProject({ image, title, techStack, desc, github, deploy }) {
               transform: "scale(1.05)",
             }}
           />
-        </Link>
+        </a>
       </Box>
 
       <Box p="6">
@@ -52,7 +52,7 @@ function HelperProject({ image, title, techStack, desc, github, deploy }) {
                 colorScheme={"teal"}
               >
                 <Badge
-                  class="project-tech-stack"
+                  className="project-tech-stack"
                   key={ind + Date.now()}
                   borderRadius="full"
                   colorScheme="teal"
@@ -88,20 +88,20 @@ function HelperProject({ image, title, techStack, desc, github, deploy }) {
         </Text>
 
         <Flex mt={"4"} justifyContent={"space-between"}>
-          <Link class="project-github-link" href={github} isExternal>
+          <a className="project-github-link" href={github} isExternal>
             <Button size="sm" colorScheme="teal" variant="solid">
               <Text mr={"4px"}>GitHub</Text>
 
               <BsGithub />
             </Button>
-          </Link>
+          </a>
 
-          <Link class="project-deployed-link" href={deploy} isExternal>
+          <a className="project-deployed-link" href={deploy} isExternal>
             <Button size="sm" colorScheme="teal" variant="outline">
               <Text mr={"4px"}>Deployed Link</Text>
               <BiLinkExternal />
             </Button>
-          </Link>
+          </a>
         </Flex>
       </Box>
     </Box>

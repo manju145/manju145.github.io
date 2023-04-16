@@ -16,6 +16,12 @@ import {
   useDisclosure,
   useColorMode,
 } from "@chakra-ui/react";
+import Manju_Yadav_Resume from "../Image/Manju_Yadav_Resume.pdf"
+
+const handleResumeShow=()=>{
+  window.open(`${Manju_Yadav_Resume}`)
+}
+
 
 export default function DrawerExample({ handleClickScroll, handleResume }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -42,9 +48,9 @@ export default function DrawerExample({ handleClickScroll, handleResume }) {
                 {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
               </Button>
 
-              <Link
+              {/* <Link
                 id="resume-link-1"
-                href="Parbhat_Resume.pdf"
+                href="Manju_Yadav_Resume.pdf"
                 download
                 onClick={handleResume}
                 target="_blank"
@@ -63,7 +69,20 @@ export default function DrawerExample({ handleClickScroll, handleResume }) {
                     </Button>
                   </Flex>
                 </Button>
-              </Link>
+              </Link> */}
+{/* 
+<span  onClick={handleResumeShow}>
+            <a  
+            style={{padding:'10px',background:'rgb(71,97,190)',borderRadius:'8px' , color:'white',textDecoration:'none'}}
+           
+            href={Manju_Yadav_Resume}
+             download={true}
+             target="_blank"
+             rel="noreferrer"
+            >
+                  Resume                                                          
+            </a>
+            </span> */}
             </Flex>
           </DrawerHeader>
 

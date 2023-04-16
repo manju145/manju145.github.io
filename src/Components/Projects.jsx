@@ -42,7 +42,7 @@ let data = [
     desc: "Tripoto is a travel website that offers guides, itineraries, booking options and a platform to share personal travel stories.",
     title: "Tripoto Clone",
     techStack: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/manju145/needless-point-9035",
+    github: "https://github.com/manju145/needless-point-9035.git",
     deploy: "https://brilliant-rugelach-54b37f.netlify.app/",
   },
   {

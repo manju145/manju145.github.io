@@ -6,7 +6,7 @@ const Stats = () => {
   return (
     <Box marginTop={"130px"} textAlign="center">
       <Heading>GitHub Stats</Heading>
-      <Stack>
+      <Stack id="gitstats">
         <Box
           className="react-activity-calendar"
           m={"auto"}
@@ -52,7 +52,8 @@ const Stats = () => {
             <Flex justifyContent={"center"}>
               <Image
                 id="github-top-langs"
-                src="https://github-readme-stats.vercel.app/api/top-langs?username=harshitakatara34&show_icons=true&locale=en&layout=compact"
+
+                src="https://github-readme-stats.vercel.app/api/top-langs?username=manju145&show_icons=true&locale=en&layout=compact" alt="manju145"
               ></Image>
             </Flex>
           </Link>
@@ -71,7 +72,9 @@ const Stats = () => {
               ></Image>
             </Flex>
           </Link>
-        </Flex>
+
+        
+          </Flex>
       </Stack>
     </Box>
   );
