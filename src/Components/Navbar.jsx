@@ -146,6 +146,7 @@ export default function Navbar() {
                 onClick={handleResume}
                 target="_blank"
               >
+              
                 <Button
                   className="nav-link resume"
                   id="resume-button-1"
