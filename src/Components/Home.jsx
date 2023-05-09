@@ -15,7 +15,6 @@ import {
 
 import manjupic from "../Image/manjupic.png";
 import { BiDownload } from "react-icons/bi";
-// import Resume from "../Image/Harshita_Katara_Resume.pdf"
 import Manju_Yadav_Resume from "../Image/Manju_Yadav_Resume.pdf"
 const Feature = ({ text, icon, iconBg }) => {
   return (
