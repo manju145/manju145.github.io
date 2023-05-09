@@ -3,11 +3,10 @@ import React from "react";
 import HelperProject from "./helper";
 import img1 from "../Image/img1.png"
 import img2 from "../Image/img2.png"
-// console.log(img1)
+
 const Projects = () => {
   return (
-    // Passing `columns={[2, null, 3]}` and `columns={{sm: 2, md: 3}}`
-    // will have the same effect.
+
     <Box id="projects" textAlign={"center"} pt="130px" mt={"10"}>
       <Heading>Projects</Heading>
       <SimpleGrid

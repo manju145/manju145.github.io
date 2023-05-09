@@ -15,7 +15,7 @@ import {
 
 import manjupic from "../Image/manjupic.png";
 import { BiDownload } from "react-icons/bi";
-import Manju_Yadav_Resume from "../Image/Manju_Yadav_Resume.pdf"
+// import Manju_Yadav_Resume from "../Image/Manju_Yadav_Resume.pdf"
 const Feature = ({ text, icon, iconBg }) => {
   return (
     <Stack direction={"row"} align={"center"}>
@@ -34,18 +34,13 @@ const Feature = ({ text, icon, iconBg }) => {
   );
 };
 
-const handleResumeShow=()=>{
-  window.open(`${Manju_Yadav_Resume}`)
-}
+// const handleResumeShow=()=>{
+//   window.open(`${Manju_Yadav_Resume}`)
+// }
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode();
-  // function handleResume() {
-  //   window.open(
-  //    `${Manju_Yadav_Resume}`
-  //   );
-  // }
-  return (
+   return (
     <>
       <Box id="home" h="30px"></Box>
       <Container
@@ -101,7 +96,7 @@ export default function Home() {
                 }
               >
                
-                 <span id="resume-button-2" onClick={handleResumeShow}>
+                 {/* <span id="resume-button-2" onClick={handleResumeShow}>
                  <a  
             style={{padding:'10px',background:'rgb(71,97,190)',borderRadius:'8px' , color:'white',textDecoration:'none'}}
             id="resume-link-2"
@@ -112,7 +107,7 @@ export default function Home() {
             >
                   Resume                                                          
             </a>
-            </span>
+            </span> */}
             
                 <Flex justifyContent={"space-around"} w="25%">
                   <Link

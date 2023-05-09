@@ -18,7 +18,7 @@ import {
   Button,
 } from "@chakra-ui/react";
 import aboutimage from "../Image/aboutimage.png";
-// console.log(photo)
+import Manju_Yadav_Resume from "../Image/Manju_Yadav_Resume.pdf"
 const BlogTags = (props) => {
   return (
     <HStack spacing={2} marginTop={props.marginTop}>
@@ -50,6 +50,9 @@ export const BlogAuthor = (props) => {
 };
 
 const About = () => {
+  const handleResumeShow=()=>{
+    window.open(`${Manju_Yadav_Resume}`)
+  }
   return (
     <>
       <Box h="60px"></Box>
@@ -156,12 +159,7 @@ const About = () => {
               <Link textDecoration="none" _hover={{ textDecoration: "none" }}>
                 Summary
               </Link>
-              {/* <Button
-                id="resume-button-2"
-                colorScheme="teal"
-                size="md"
-              ></Button> */}
-            </Heading>
+                      </Heading>
             <Text
               as="p"
               marginTop="2"
@@ -175,6 +173,18 @@ const About = () => {
               web applications while facilitating organizations in achieving
               ambitious goals.
             </Text>
+            <span style={{ marginTop:'8%' , padding:'10px'}} id="resume-button-2" onClick={handleResumeShow}>
+                 <a  
+            style={{padding:'10px',background:'rgb(71,97,190)',borderRadius:'8px' , color:'white',textDecoration:'none'}}
+            id="resume-link-2"
+            href={Manju_Yadav_Resume}
+             download={true}
+             target="_blank"
+             rel="noreferrer"
+            >
+                  Resume                                                          
+            </a>
+            </span>
             {/* <BlogAuthor name="John Doe" date={new Date('2021-04-06T19:01:27Z')} /> */}
           </Flex>
         </Flex>

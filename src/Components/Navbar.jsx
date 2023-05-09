@@ -47,10 +47,6 @@ export default function Navbar() {
     }
   };
 
-  // console.log(colorMode);
-  // function handleResume() {
-  //  window.open(`${Manju_Yadav_Resume}`)
-  // }
   return (
     <>
       <Box
@@ -138,28 +134,7 @@ export default function Navbar() {
                 <Link className="nav-link contact">Contact</Link>
               </Button>
 
-              {/* <Link
-               id="resume-link-1"
-                href={Manju_Yadav_Resume}
-                className="nav-link resume"
-                download
-                onClick={handleResume}
-                target="_blank"
-              >
-              
-                <Button
-                  className="nav-link resume"
-                  id="resume-button-1"
-                  colorScheme="teal"
-                  size="md"
-                >
-                  <Text mr={"4px"}>
-                    Resume
-                    <BiDownload />
-                  </Text>
-                </Button>
-              </Link> */}
-
+            
 <div className="nav-link resume">
 <span  id="resume-button-1" onClick={handleResumeShow}>
             <a  
