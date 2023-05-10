@@ -48,30 +48,27 @@ export default function DrawerExample({ handleClickScroll, handleResume }) {
                 {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
               </Button>
 
-              {/* <Link
-                id="resume-link-1"
-                href="Manju_Yadav_Resume.pdf"
+          <Link
+             href="Manju_Yadav_Resume.pdf"
                 download
                 onClick={handleResume}
                 target="_blank"
               >
                 <Button
-                  id="resume-button-1"
-                  class="nav-link resume"
-                  colorScheme="blue"
+                 colorScheme="blue"
                   size="md"
                   ml="20px"
                   variant="solid"
                 >
                   <Flex ml="10px" alignItems={"center"}>
                     <Button>
-                      <Text mr={"4px"}>Resume</Text> <BiDownload />
+                      <Text fontSize={"20px"} color={"black"} mr={"4px"}>Resume</Text> <BiDownload />
                     </Button>
                   </Flex>
                 </Button>
-              </Link> */}
-{/* 
-<span  onClick={handleResumeShow}>
+              </Link> 
+ 
+           {/* <span  onClick={handleResumeShow}>
             <a  
             style={{padding:'10px',background:'rgb(71,97,190)',borderRadius:'8px' , color:'white',textDecoration:'none'}}
            
@@ -82,7 +79,7 @@ export default function DrawerExample({ handleClickScroll, handleResume }) {
             >
                   Resume                                                          
             </a>
-            </span> */}
+            </span>  */}
             </Flex>
           </DrawerHeader>
 
