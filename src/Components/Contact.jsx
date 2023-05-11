@@ -30,6 +30,7 @@ const Contact = () => {
       <FormHelperText>We'll never share your details.</FormHelperText>
       <Button type="submit" style={{backgroundColor:"skyblue",color:"black",marginTop:"10px"}}>Submit</Button>
     </FormControl>
+    
     <div style={{ display: "flex", justifyContent: "center", flexDirection: "row", width:"50%", gap:"2%",marginTop:"10px" }}>
           <a 
           href="mailto:manjuyadav0514001@gmail.com " >
