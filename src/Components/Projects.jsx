@@ -3,6 +3,10 @@ import React from "react";
 import HelperProject from "./helper";
 import img1 from "../Image/img1.png"
 import img2 from "../Image/img2.png"
+import Apple from "../Image/Apple.png"
+import Amazon from "../Image/Amazon.png"
+
+
 
 const Projects = () => {
   return (
@@ -44,8 +48,26 @@ let data = [
     github: "https://github.com/manju145/needless-point-9035.git",
     deploy: "https://brilliant-rugelach-54b37f.netlify.app/",
   },
-  
+  {
+    image:`${Amazon}`,
+    desc: "E-commerce website with product search, sorting, filtering, cart, checkout, admin portal and auth.",
+    title: "Amazon Clone",
+    techStack: ["Reactjs","Chakra UI","MonogoDB","Express","HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Faheemw09/envious-cactus-6437",
+    deploy: "https://amazonn-ten.vercel.app/",
+  },
+
+  {
+    image:`${Apple}`,
+    desc: "An E-commerce website for purchasing electronics products such as ipad,iphone,Mac and other accessories.",
+    title: "Apple Clone",
+    techStack: ["HTML", "CSS", "JavaScript","Reactjs","Chakra UI","MonogoDB","Express"],
+    github: "https://github.com/harshal-kitukale/hunky-point-1424",
+    deploy: "https://frontend-apple.vercel.app/",
+  },
   
   ];
 
 export default Projects;
+
+
