@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.3fb246a7.css",
-    "main.js": "/static/js/main.1d4e256f.js",
+    "main.js": "/static/js/main.d44f5fcd.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/img2.png": "/static/media/img2.53983627986a4f424544.png",
     "static/media/Amazon.png": "/static/media/Amazon.71b6d9f16a20405d3b56.png",
     "static/media/aboutimage.png": "/static/media/aboutimage.0d69efdbd7f1fb77f66a.png",
     "static/media/Apple.png": "/static/media/Apple.de9f4c92644ae1c646a4.png",
+    "static/media/Brand.png": "/static/media/Brand.44875fbb21dcef527249.png",
     "static/media/Manju_Yadav_Resume.pdf": "/static/media/Manju_Yadav_Resume.99be4dea8b3171f0ce1d.pdf",
     "static/media/manjupic.png": "/static/media/manjupic.445348a91e48f69b35e6.png",
     "static/media/img1.png": "/static/media/img1.4a237b53ebd54892b9d9.png",
     "index.html": "/index.html",
     "main.3fb246a7.css.map": "/static/css/main.3fb246a7.css.map",
-    "main.1d4e256f.js.map": "/static/js/main.1d4e256f.js.map",
+    "main.d44f5fcd.js.map": "/static/js/main.d44f5fcd.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3fb246a7.css",
-    "static/js/main.1d4e256f.js"
+    "static/js/main.d44f5fcd.js"
   ]
 }
