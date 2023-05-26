@@ -148,7 +148,7 @@ export default function Home() {
                 </Flex>
               </Stack>
               <Stack>
-                <Flex>
+                {/* <Flex>
                   <svg
                     fill="white"
                     width="24"
@@ -162,7 +162,7 @@ export default function Home() {
                   <Text id="contact-phone" ml={"5px"}>
                     +91 8788817572
                   </Text>
-                </Flex>
+                </Flex> */}
 
                 <Flex mt={{ base: "20px", sm: "0px" }}>
                   <svg
