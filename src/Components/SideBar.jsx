@@ -16,7 +16,7 @@ import {
   useDisclosure,
   useColorMode,
 } from "@chakra-ui/react";
-import Manju_Yadav_Resume from "../Image/Manju_Yadav_Resume.pdf"
+import Manju_Yadav_Resume from "../Image/Manju_yadav_Resume.pdf"
 
 const handleResumeShow=()=>{
   window.open(`${Manju_Yadav_Resume}`)

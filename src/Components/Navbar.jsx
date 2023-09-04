@@ -12,7 +12,7 @@ import {
 import { MoonIcon, SunIcon} from "@chakra-ui/icons";
 import { BiDownload } from "react-icons/bi";
 import DrawerExample from "./SideBar";
-import Manju_Yadav_Resume from "../Image/Manju_Yadav_Resume.pdf"
+import Manju_Yadav_Resume from "../Image/Manju_yadav_Resume.pdf"
 
 const NavLink = ({ children }) => (
   <Link

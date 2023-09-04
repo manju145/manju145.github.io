@@ -18,7 +18,7 @@ import {
   Button,
 } from "@chakra-ui/react";
 import aboutimage from "../Image/aboutimage.png";
-import Manju_Yadav_Resume from "../Image/Manju_Yadav_Resume.pdf"
+import Manju_Yadav_Resume from "../Image/Manju_yadav_Resume.pdf"
 const BlogTags = (props) => {
   return (
     <HStack spacing={2} marginTop={props.marginTop}>
@@ -50,7 +50,7 @@ export const BlogAuthor = (props) => {
 };
 
 const About = () => {
-  const handleResumeShow=()=>{
+  const handleResumeShow = () => {
     window.open(`${Manju_Yadav_Resume}`)
   }
   return (
@@ -159,7 +159,7 @@ const About = () => {
               <Link textDecoration="none" _hover={{ textDecoration: "none" }}>
                 Summary
               </Link>
-                      </Heading>
+            </Heading>
             <Text
               as="p"
               marginTop="2"
@@ -167,23 +167,22 @@ const About = () => {
               fontSize="lg"
               id="user-detail-intro"
             >
-              I am a Full Stack Developer in MERN stack having good knowledge o
-              Express, MongoDB, JavaScript, HTML, CSS, etc. I am passionate
-              about learning new technologies and aiming to create world-class
-              web applications while facilitating organizations in achieving
-              ambitious goals.
+              I am a Full Stack Web Developer in Mern Stack having good experience in 
+              React.js, HTML, CSS, JavaScript, Node.js, MongoDB etc. Passionate about coding and looking
+              for a challenging role in growth-oriented organization.
+
             </Text>
-            <span style={{ marginTop:'8%' , padding:'10px'}} id="resume-button-2" onClick={handleResumeShow}>
-                 <a  
-            style={{padding:'10px',background:'rgb(71,97,190)',borderRadius:'8px' , color:'white',textDecoration:'none'}}
-            id="resume-link-2"
-            href={Manju_Yadav_Resume}
-             download={true}
-             target="_blank"
-             rel="noreferrer"
-            >
-                  Resume                                                          
-            </a>
+            <span style={{ marginTop: '8%', padding: '10px' }} id="resume-button-2" onClick={handleResumeShow}>
+              <a
+                style={{ padding: '10px', background: 'rgb(71,97,190)', borderRadius: '8px', color: 'white', textDecoration: 'none' }}
+                id="resume-link-2"
+                href={Manju_Yadav_Resume}
+                download={true}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
+              </a>
             </span>
             {/* <BlogAuthor name="John Doe" date={new Date('2021-04-06T19:01:27Z')} /> */}
           </Flex>
