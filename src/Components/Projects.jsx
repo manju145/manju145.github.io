@@ -31,6 +31,7 @@ const Projects = () => {
   );
 };
 
+
 let data = [
   {
     image:`${Brand}`,
