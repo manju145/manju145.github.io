@@ -3,7 +3,7 @@ import React from "react";
 import HelperProject from "./helper";
 import img1 from "../Image/img1.png"
 import Flipkart2 from "../Image/Flipkart2.png"
-
+import MY_FASHION from "../Image/MY_FASHION.png"
 import Apple from "../Image/Apple.png"
 import Amazon from "../Image/Amazon.png"
 import Brand from "../Image/Brand.png"
@@ -41,6 +41,14 @@ let data = [
     techStack: ["React.js","React-Redux","MUI","Styled-Components","JavaScript","Express.js","MonogoDB",],
     github: "https://github.com/manju145/Flipcard",
     deploy: "https://64f1ce82c38df25ed21b395f--tourmaline-daffodil-5f133f.netlify.app/",
+  },
+  {
+    image:`${MY_FASHION}`,
+    desc: "It is a E-commerce website for purchasing  products.",
+    title: "MY FASHION",
+     techStack: ["React.js","JavaScript","Node.js","colors","MonogoDB",],
+    github: "https://github.com/manju145/E-Commerse",
+    deploy: "https://651732932e43b222d8393c52--effervescent-chebakia-c7433f.netlify.app/",
   },
   {
     image:`${Brand}`,
