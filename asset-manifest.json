@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3fb246a7.css",
-    "main.js": "/static/js/main.f750f165.js",
+    "main.js": "/static/js/main.ab91a7e3.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Amazon.png": "/static/media/Amazon.71b6d9f16a20405d3b56.png",
     "static/media/Flipkart2.png": "/static/media/Flipkart2.7adf1d32530e7ef3c269.png",
@@ -10,14 +10,15 @@
     "static/media/Brand.png": "/static/media/Brand.44875fbb21dcef527249.png",
     "static/media/Manju_yadav_Resume.pdf": "/static/media/Manju_yadav_Resume.5dbfcef427748b79301d.pdf",
     "static/media/manjupic.png": "/static/media/manjupic.445348a91e48f69b35e6.png",
+    "static/media/MY_FASHION.png": "/static/media/MY_FASHION.8b29d0ff32dfa112868c.png",
     "static/media/img1.png": "/static/media/img1.4a237b53ebd54892b9d9.png",
     "index.html": "/index.html",
     "main.3fb246a7.css.map": "/static/css/main.3fb246a7.css.map",
-    "main.f750f165.js.map": "/static/js/main.f750f165.js.map",
+    "main.ab91a7e3.js.map": "/static/js/main.ab91a7e3.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3fb246a7.css",
-    "static/js/main.f750f165.js"
+    "static/js/main.ab91a7e3.js"
   ]
 }
